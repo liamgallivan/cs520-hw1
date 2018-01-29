@@ -79,7 +79,7 @@ int main()
   areaTrap = Trap(a, b, n, h);
   areaSimpson = Simpson(a, b, n, h);
   printf("Result of Trapezoidal rule is: %lf.\nResult of Simpson Rule is: %lf.\n", areaTrap, areaSimpson);
-  printf("Difference between two results(Trap Rule - Simpson Rule): %lf.", areaTrap - areaSimpson);
+  printf("Difference between two results(Trap Rule - Simpson Rule): %lf.\n", areaTrap - areaSimpson);
 
   return 0;
 }
