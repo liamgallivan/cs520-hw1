@@ -28,9 +28,10 @@ double Simpson(double a, double b, int n, double h)
 {
   double total_area = 0.0;
   double interval_area;
+  int i;
 
   total_area = f(a) + f(b);
-  for (int i = 1; i < n; i++)
+  for (i = 1; i < n; i++)
   {
     interval_area = f(a + i*h);
     if (i % 2 == 0)
